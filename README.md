@@ -1,16 +1,40 @@
-# singlescreencalc
+Calculator UI Design - Flutter 🎨
+A clean and modern Single-Screen Calculator UI built with Flutter. This project focuses on high-quality visual design and responsive layout principles, as per the design task requirements.
 
-A new Flutter project.
+🎯 Task Objective
+The goal was to design a professional, single-screen layout for a basic calculator, focusing on the visual interface without backend logic.
 
-## Getting Started
+✨ Design Features
+Modern Dark Theme: A sleek black background with high-contrast button colors for better readability.
 
-This project is a starting point for a Flutter application.
+Grid System: Used GridView with a customized childAspectRatio to ensure buttons are perfectly proportioned.
 
-A few resources to get you started if this is your first Flutter project:
+Custom Components: Built a reusable CalculatorButton widget to maintain code clean and consistent styling.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Responsive Layout: The UI adapts seamlessly to different screen sizes using Expanded and SafeArea widgets.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Interactive UI: Number buttons and the "Clear" (C) button are interactive to demonstrate UI state changes.
+
+🛠️ Tools & Technologies
+Flutter - Framework.
+
+Dart - Programming Language.
+
+Clean Architecture - UI/Presentation layer separation.
+
+📂 Project Structure
+lib/
+└── feature/
+    └── calculator_home_screen/
+        └── presentation/
+            ├── screens/      # CalculatorScreen (The main UI)
+            └── components/   # CustomButton (Reusable widget)
+📸 Preview
+Note: Include a screenshot of your app here to showcase the design directly on GitHub.
+
+🚀 How to Run
+Clone this repository.
+
+Run flutter pub get.
+
+Launch the app using flutter run.           
